@@ -1,0 +1,42 @@
+
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .credits {
+    text-align: center;
+  }
+  
+  .textarea-container {
+    width: calc(100vw / 2);
+    padding: .5rem;
+  }
+  
+  textarea {
+    width: 100%;
+    color: #dfdfe2;
+    background-color: #2a2a40;
+    resize: none;
+    height: 600px;
+    font-size: 1.2rem;
+    border: 1px solid #f5f6f7;
+  }
+  
+  #preview {
+    height: 600px;
+    overflow: scroll;
+    border: 1px solid #f5f6f7;
+  }
+  
+  #preview img {
+    width: calc(100% / 2);
+  }
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
